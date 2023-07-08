@@ -30,6 +30,10 @@ To build on Windows:
 npm run winBuild
 ```
 
+## Smart Contracts
+
+This platform was forked from [Cashcow's](https://github.com/CashCowProject/) code and all the Smart Contracts were forked from [here](https://github.com/CashCowProject/cashcow-contracts).
+
 ## Dogeshrek Farms Info
 
 To get your Dogechain token project listed on Dogeshrek or to get your own farming pools contact an admin in our official [Telegram Group](https://t.me/DogeshrekChat). Must have a reasonable amount of liquidity added to [Dogeshrek DEX](https://farms.dogechain.dev/#/pool). 
