@@ -32,7 +32,7 @@ npm run winBuild
 
 ## Smart Contracts
 
-This platform was forked from [Cashcow's](https://github.com/CashCowProject/) code and all the Smart Contracts were forked from [here](https://github.com/CashCowProject/cashcow-contracts).
+This platform was forked from [CashCowProtocol](https://github.com/CashCowProject/) and all the Smart Contracts were forked from [here](https://github.com/CashCowProject/cashcow-contracts). Thanks CashCow for complying with GPL-3.0 license by sharing your code - not many crypto projects do this and we appreciate your contributions to our ecosystem!
 
 ## Dogeshrek Farms Info
 
