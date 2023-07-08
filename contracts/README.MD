@@ -1,0 +1,3 @@
+# In-Development NFT Staking Contract
+
+**IMPORTANT WARNING**: This contract is in-development for future NFT staking pools on Dogeshrek! The only modifications I've made from CashCow's contract is removing the tokenId whitelist as I believe their NFT's were deployed using AirNFT. **Nothing** has been tested yet and it's **NOT** recommended you use this contract or the NFT staking part of this codebase in any manner of production!
