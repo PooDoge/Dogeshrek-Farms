@@ -33,7 +33,6 @@ export default {
 
   kibby: {
     2000: "0x72aB1BAbED0502B08225FA1eF777fa673d82Ee3e", // KIBBY
-
   },
 
   milk: {

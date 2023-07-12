@@ -111,7 +111,23 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 2, 
+    pid: 12, // Has zero aloc, we use this just to calculate Kibby-USD price
+    risk: 3,
+    isTokenOnly: false,
+    hide: true,
+    lpSymbol: 'Kibby-USDC LP',
+    lpAddresses: {
+      2000: "0x78ea450f562135Ac473d843B59661E1f2f1624AB"
+    },
+    tokenSymbol: 'KIBBY',
+    tokenAddresses: {
+      2000: "0x72aB1BAbED0502B08225FA1eF777fa673d82Ee3e"
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 2,
     risk: 3,
     isTokenOnly: false,
     lpSymbol: 'DogeShrek-Doge LP',
@@ -127,7 +143,23 @@ const farms: FarmConfig[] = [
   },
 
   {
-    pid: 3, 
+    pid: 17,
+    risk: 3,
+    isTokenOnly: false,
+    lpSymbol: 'DTools-Doge LP',
+    lpAddresses: {
+      2000: '0xfD6d0A99849b886f6E036D6dF60F7De2D3431E4A', // DTools-Doge LP
+    },
+    tokenSymbol: 'dtools',
+    tokenAddresses: {
+      2000: '0xB9fcAa7590916578087842e017078D7797Fa18D0', // DogeTools
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+
+  {
+    pid: 3,
     risk: 3,
     isTokenOnly: false,
     lpSymbol: 'DogeShrek-USDC LP',
@@ -144,7 +176,7 @@ const farms: FarmConfig[] = [
 
 
   {
-    pid: 4, 
+    pid: 4,
     risk: 3,
     isTokenOnly: false,
     lpSymbol: 'Dogecorn-USDC LP',
@@ -153,17 +185,92 @@ const farms: FarmConfig[] = [
     },
     tokenSymbol: 'dogecorn',
     tokenAddresses: {
-      2000: '0x8df9B21945ebaa75424730F85eCFf426C35F5EF8', // DogeShrek
+      2000: '0x8df9B21945ebaa75424730F85eCFf426C35F5EF8',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
 
+  {
+    pid: 11,
+    risk: 3,
+    isTokenOnly: false,
+    lpSymbol: 'Dogecorn-Kibby LP',
+    lpAddresses: {
+      2000: '0x01eEaA2aBfE11a75b95a40bA4F70b6B333E818E8', // Dogecorn-Kibby LP
+    },
+    tokenSymbol: 'kibby',
+    tokenAddresses: {
+      2000: '0x8df9B21945ebaa75424730F85eCFf426C35F5EF8', // Dogecorn
+    },
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
+  },
 
+  {
+    pid: 15,
+    risk: 3,
+    isTokenOnly: false,
+    lpSymbol: 'BDC-Doge LP',
+    lpAddresses: {
+      2000: '0x5dB707875fc0890d867F1B775Fbb7101445CC30C', // Buddy-Doge LP
+    },
+    tokenSymbol: 'buddy',
+    tokenAddresses: {
+      2000: '0x1Db10Fc7e7e4b5443f549cF53A53c5A4De4759ca', // BDC
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
 
+  {
+    pid: 16,
+    risk: 3,
+    isTokenOnly: false,
+    lpSymbol: 'WAT-Doge LP',
+    lpAddresses: {
+      2000: '0x6B17eCED3F52EbADBB1f15995e9148ac2151C921', // WAT-Doge LP
+    },
+    tokenSymbol: 'WAT',
+    tokenAddresses: {
+      2000: '0xdd5e0f05680e7d4aeC462E9A60bc860d009c92c9', // WAT
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
 
-    {
-    pid: 5, 
+  {
+    pid: 13,
+    risk: 3,
+    isTokenOnly: false,
+    lpSymbol: 'Grimace-Doge LP',
+    lpAddresses: {
+      2000: '0x8E7269772ea8A0046BfA3ff93d1aaaD279b921Ae', // Grimace-Doge LP
+    },
+    tokenSymbol: 'Grimace',
+    tokenAddresses: {
+      2000: '0x2f90907fD1DC1B7a484b6f31Ddf012328c2baB28', // Grimace
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 14,
+    risk: 3,
+    isTokenOnly: false,
+    lpSymbol: 'BBYoda-Doge LP',
+    lpAddresses: {
+      2000: '0x3D1653D39B6EaFBBcE2CE95989fDD1CE747D550C', // Grimace-Doge LP
+    },
+    tokenSymbol: 'BBYoda',
+    tokenAddresses: {
+      2000: '0xd8ba3140C1b72432076f28aBf228755645b6A589', // BBYoda
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 5,
     risk: 3,
     isTokenOnly: false,
     lpSymbol: 'Dogeshrek-DC LP',
@@ -176,10 +283,7 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.DC,
     quoteTokenAdresses: contracts.dc,
-  },
-
-
-
+  }
 
 ]
 
