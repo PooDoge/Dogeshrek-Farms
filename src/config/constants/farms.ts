@@ -50,6 +50,21 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
+    pid: 18,
+    risk: 3,
+    isTokenOnly: false,
+    lpSymbol: 'FuckPepe-Doge LP',
+    lpAddresses: {
+      2000: "0xd31D96BE6A2414600fdbA03E11F43833a362DD53"
+    },
+    tokenSymbol: 'FuckPepe',
+    tokenAddresses: {
+      2000: "0xA6D7137aF64280e3eb8715aB6766740984Dd35E7"
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
     pid: 9,
     risk: 3,
     isTokenOnly: false,
