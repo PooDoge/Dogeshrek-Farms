@@ -3,7 +3,7 @@
 // In the URL, using the quote token 'BNB' is represented by 'ETH'
 const getLiquidityUrlPathParts = ({ quoteTokenAdresses, quoteTokenSymbol, tokenAddresses }) => {
   const chainId = 2000
-  const firstPart = quoteTokenSymbol === 'BNB' ? 'AVAX' : quoteTokenAdresses[chainId]
+  const firstPart = quoteTokenSymbol === 'BNB' ? 'ETH' : quoteTokenAdresses[chainId]
   const secondPart = tokenAddresses[chainId]
   return `${firstPart}/${secondPart}`
 }

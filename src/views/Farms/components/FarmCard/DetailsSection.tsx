@@ -56,7 +56,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
           href={
             isTokenOnly
               ? `${(lpLabel === 'GOL' || lpLabel === 'MILK-BNB GLP') ? 'https://gol.finance' : 'https://dogeshrek.com'}//#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
-              : `${(lpLabel === 'GOL' || lpLabel === 'MILK-BNB GLP') ? 'https://gol.finance' : 'https://dogeshrek.com'}/#/add/AVAX/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+              : `${(lpLabel === 'GOL' || lpLabel === 'MILK-BNB GLP') ? 'https://gol.finance' : 'https://dogeshrek.com'}/#/add/ETH/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
           }
         >
           {lpLabel}
