@@ -50,6 +50,51 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
+    pid: 21,
+    risk: 3,
+    isTokenOnly: false,
+    lpSymbol: 'RainGod-Doge LP',
+    lpAddresses: {
+      2000: "0x54b149d21235169b13c0b2c01d737a5b8d8307b0"
+    },
+    tokenSymbol: 'RainGod',
+    tokenAddresses: {
+      2000: "0x1174d0b9cfc32f8c39884b226db43697a9ad541d"
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 20,
+    risk: 3,
+    isTokenOnly: false,
+    lpSymbol: 'Lit-Doge LP',
+    lpAddresses: {
+      2000: "0x992f41e50500120fb5247ce8ed85ec566cf4f4c7"
+    },
+    tokenSymbol: 'Lit',
+    tokenAddresses: {
+      2000: "0x5cc1d860c0d1a695912e5aedc5cf3ccf5af83eca"
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 19,
+    risk: 3,
+    isTokenOnly: false,
+    lpSymbol: 'X-Doge LP',
+    lpAddresses: {
+      2000: "0xb01e97cff926aa37a5cf809a4c108c2640d5d683"
+    },
+    tokenSymbol: 'X',
+    tokenAddresses: {
+      2000: "0x3abde71c12b7f34bc33d7d2c5f3236393eac7880"
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
     pid: 18,
     risk: 3,
     isTokenOnly: false,

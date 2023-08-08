@@ -15,7 +15,7 @@ notes.txt
 /out/
 .idea/
 # production
-/build
+# /build
 
 # misc
 .DS_Store

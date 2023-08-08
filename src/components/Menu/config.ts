@@ -12,20 +12,12 @@ const config: MenuEntry[] = [
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Trade DogeCorn on Dogeshrek',
-        href: `https://dogeshrek.com/#/swap/${contracts.cake[2000]}`,
+        label: 'Exchange',
+        href: `https://dogeshrek.com/#/swap`,
       },
       {
-        label: 'Trade DogeShrek on Dogeshrek',
-        href: `https://dogeshrek.com/#/swap?outputCurrency=0x2be0096b24343549e34224aa9aa297e99961023d`,
-      }, 
-      {
-        label: 'Trade Kibby on Dogeshrek',
-        href: `https://dogeshrek.com/#/swap?outputCurrency=0x72aB1BAbED0502B08225FA1eF777fa673d82Ee3e`,
-      },
-      {
-        label: 'Trade Kibby on Kibble',
-        href: `https://swap.kibby.dog/#/swap?outputCurrency=0x72aB1BAbED0502B08225FA1eF777fa673d82Ee3e`,
+        label: 'Liquidity',
+        href: `https://dogeshrek.com/#/pool`,
       },
     ],
   },
@@ -35,20 +27,40 @@ const config: MenuEntry[] = [
     icon: 'FarmIcon',
     href: '/farms',
   },
-  {
-    label: 'Doge Bridge',
-    icon: 'TicketIcon',
-    href: 'https://bridge.dogechain.dog/'
-  },
-
- 
+//  {
+//    label: 'My NFTs',
+//    icon: 'TicketIcon',
+//    href: '/nft-market',
+//  },
   {
     label: 'Info',
     icon: 'InfoIcon',
     items: [
       {
-        label: 'DexScreener',
-        href: 'https://dexscreener.com/dogechain/dogeshrek',
+        label: 'CoinGecko',
+        href: 'https://www.coingecko.com/en/coins/dogeshrek',
+      },
+      {
+        label: 'CoinMarketCap',
+        href: 'https://coinmarketcap.com/currencies/dogeshrek/',
+      },
+      {
+        label: 'GeckoTerminal',
+        href: 'https://www.geckoterminal.com/dogechain/pools/0xd4f2e4107cc48296d25bc656bf9039fb3f406d79',
+      },
+    ],
+  },
+  {
+    label: 'More',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'GitHub',
+        href: 'https://github.com/PooDoge',
+      },
+      {
+        label: 'Docs',
+        href: 'https://docs.dogeshrek.com',
       },
     ],
   },
